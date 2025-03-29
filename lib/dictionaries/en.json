@@ -28,16 +28,15 @@
         "name": "Starter",
         "description": "Perfect for small projects and personal websites.",
         "price": {
-          "monthly": "$9",
-          "annual": "$86"
+          "monthly": "4 USD",
+          "annual": "36 USD"
         },
         "features": [
           "1 CPU core",
-          "1GB RAM",
-          "10GB SSD storage",
+          "2GB SSD storage",
           "500GB bandwidth",
-          "2 deployments",
-          "Community support"
+          "Community support",
+          "Custom domains"
         ],
         "cta": "Get started"
       },
@@ -45,18 +44,15 @@
         "name": "Professional",
         "description": "Ideal for growing businesses and applications.",
         "price": {
-          "monthly": "$29",
-          "annual": "$278"
+          "monthly": "8 USD",
+          "annual": "88 USD"
         },
         "features": [
-          "2 CPU cores",
-          "4GB RAM",
-          "50GB SSD storage",
-          "2TB bandwidth",
-          "Unlimited deployments",
+          "1 CPU core",
+          "5GB SSD storage",
+          "1TB bandwidth",
           "Priority support",
-          "Custom domains",
-          "Advanced analytics"
+          "Custom domains"
         ],
         "cta": "Get started",
         "popular": "Most popular"
@@ -65,20 +61,32 @@
         "name": "Enterprise",
         "description": "For large-scale applications and high-traffic sites.",
         "price": {
-          "monthly": "$99",
-          "annual": "$950"
+          "monthly": "14 USD",
+          "annual": "154 USD"
         },
         "features": [
-          "4 CPU cores",
-          "16GB RAM",
-          "250GB SSD storage",
-          "5TB bandwidth",
-          "Unlimited deployments",
+          "2 CPU cores",
+          "10GB SSD storage",
+          "2TB bandwidth",
           "24/7 dedicated support",
-          "Custom domains",
-          "Advanced analytics",
-          "99.99% uptime SLA",
-          "Dedicated infrastructure"
+          "Custom domains"
+        ],
+        "cta": "Get started",
+        "contactSales": "Contact sales"
+      },
+      "ecommerce": {
+        "name": "Ecommerce Lite",
+        "description": "Ideal for online stores and e-commerce stores.",
+        "price": {
+          "monthly": "20 USD",
+          "annual": "220 USD"
+        },
+        "features": [
+          "2 CPU cores",
+          "15GB SSD storage",
+          "4TB bandwidth",
+          "24/7 dedicated support",
+          "Custom domains"
         ],
         "cta": "Get started",
         "contactSales": "Contact sales"
@@ -86,7 +94,7 @@
     }
   },
   "features": {
-    "title": "Why choose HostPro?",
+    "title": "Why choose MagnoProyectos?",
     "subtitle": "Our platform is built with developers in mind, providing the tools and features you need to succeed.",
     "features": {
       "performance": {
@@ -126,7 +134,7 @@
       "contact": "Contact Us",
       "community": "Community"
     },
-    "copyright": "© {year} HostPro, Inc. All rights reserved."
+    "copyright": "© {year} MagnoProyectos, Inc. All rights reserved."
   }
 }
 

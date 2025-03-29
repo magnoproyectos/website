@@ -42,7 +42,7 @@ export default function Header({ dictionary, lang }: HeaderProps) {
         <div className="flex items-center gap-6">
           <Link href={`/${lang}`} className="flex items-center space-x-2">
             <div className="h-6 w-6 rounded-full bg-white" />
-            <span className="font-bold">HostPro</span>
+            <span className="font-bold">MagnoProyectos</span>
           </Link>
 
           <nav className="hidden md:flex gap-6">

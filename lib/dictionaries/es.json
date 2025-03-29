@@ -28,16 +28,15 @@
         "name": "Inicial",
         "description": "Perfecto para proyectos pequeños y sitios web personales.",
         "price": {
-          "monthly": "9€",
-          "annual": "86€"
+          "monthly": "4 USD",
+          "annual": "36 USD"
         },
         "features": [
           "1 núcleo de CPU",
-          "1GB RAM",
-          "10GB almacenamiento SSD",
+          "2GB almacenamiento SSD",
           "500GB ancho de banda",
-          "2 despliegues",
-          "Soporte comunitario"
+          "Soporte comunitario",
+          "Dominios personalizados"
         ],
         "cta": "Comenzar"
       },
@@ -45,18 +44,15 @@
         "name": "Profesional",
         "description": "Ideal para empresas y aplicaciones en crecimiento.",
         "price": {
-          "monthly": "29€",
-          "annual": "278€"
+          "monthly": "8 USD",
+          "annual": "88 USD"
         },
         "features": [
-          "2 núcleos de CPU",
-          "4GB RAM",
-          "50GB almacenamiento SSD",
-          "2TB ancho de banda",
-          "Despliegues ilimitados",
+          "1 núcleos de CPU",
+          "5GB almacenamiento SSD",
+          "1TB ancho de banda",
           "Soporte prioritario",
-          "Dominios personalizados",
-          "Análisis avanzados"
+          "Dominios personalizados"
         ],
         "cta": "Comenzar",
         "popular": "Más popular"
@@ -65,20 +61,32 @@
         "name": "Empresarial",
         "description": "Para aplicaciones a gran escala y sitios de alto tráfico.",
         "price": {
-          "monthly": "99€",
-          "annual": "950€"
+          "monthly": "14 USD",
+          "annual": "154 USD"
         },
         "features": [
-          "4 núcleos de CPU",
-          "16GB RAM",
-          "250GB almacenamiento SSD",
-          "5TB ancho de banda",
-          "Despliegues ilimitados",
+          "2 núcleos de CPU",
+          "10GB almacenamiento SSD",
+          "2TB ancho de banda",
           "Soporte dedicado 24/7",
-          "Dominios personalizados",
-          "Análisis avanzados",
-          "99.99% SLA de tiempo de actividad",
-          "Infraestructura dedicada"
+          "Dominios personalizados"
+        ],
+        "cta": "Comenzar",
+        "contactSales": "Contactar ventas"
+      },
+      "ecommerce": {
+        "name": "Ecommerce Lite",
+        "description": "Ideal para tiendas en línea y tiendas de comercio electrónico.",
+        "price": {
+          "monthly": "20 USD",
+          "annual": "220 USD"
+        },
+        "features": [
+          "2 núcleos de CPU",
+          "15GB almacenamiento SSD",
+          "4TB ancho de banda",
+          "Soporte dedicado 24/7",
+          "Dominios personalizados"
         ],
         "cta": "Comenzar",
         "contactSales": "Contactar ventas"
@@ -86,7 +94,7 @@
     }
   },
   "features": {
-    "title": "¿Por qué elegir HostPro?",
+    "title": "¿Por qué elegir MagnoProyectos?",
     "subtitle": "Nuestra plataforma está construida pensando en los desarrolladores, proporcionando las herramientas y características que necesitas para tener éxito.",
     "features": {
       "performance": {
@@ -126,7 +134,7 @@
       "contact": "Contáctanos",
       "community": "Comunidad"
     },
-    "copyright": "© {year} HostPro, Inc. Todos los derechos reservados."
+    "copyright": "© {year} MagnoProyectos, Inc. Todos los derechos reservados."
   }
 }
 

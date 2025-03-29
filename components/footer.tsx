@@ -33,7 +33,7 @@ export default function Footer({ dictionary }: FooterProps) {
           <div>
             <Link href="/" className="flex items-center space-x-2">
               <div className="h-6 w-6 rounded-full bg-white" />
-              <span className="font-bold">HostPro</span>
+              <span className="font-bold">MagnoProyectos</span>
             </Link>
             <div className="mt-4 flex space-x-4">
               <Link href="#" className="text-white/70 hover:text-white">
