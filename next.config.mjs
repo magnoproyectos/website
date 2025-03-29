@@ -21,6 +21,9 @@ const nextConfig = {
     parallelServerBuildTraces: true,
     parallelServerCompiles: true,
   },
+  output: 'export',
+  basePath: '',       // Asegura que no agregue el nombre del repo en la URL
+  assetPrefix: '',
 }
 
 mergeConfig(nextConfig, userConfig)
