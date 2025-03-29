@@ -1,0 +1,132 @@
+{
+  "header": {
+    "nav": {
+      "features": "Características",
+      "pricing": "Precios",
+      "docs": "Documentación",
+      "blog": "Blog"
+    },
+    "cta": {
+      "login": "Iniciar sesión",
+      "signup": "Registrarse"
+    }
+  },
+  "hero": {
+    "title": "Alojamiento en la nube para desarrolladores",
+    "subtitle": "Despliega tus aplicaciones con confianza. Nuestra plataforma proporciona la velocidad, seguridad y escalabilidad que tus proyectos merecen.",
+    "cta": "Comenzar",
+    "secondaryCta": "Ver demo"
+  },
+  "pricing": {
+    "title": "Precios simples y transparentes",
+    "subtitle": "Elige el plan adecuado para ti y tus proyectos.",
+    "monthlyLabel": "Mensual",
+    "annualLabel": "Anual",
+    "annualDiscount": "Ahorra 20%",
+    "plans": {
+      "starter": {
+        "name": "Inicial",
+        "description": "Perfecto para proyectos pequeños y sitios web personales.",
+        "price": {
+          "monthly": "9€",
+          "annual": "86€"
+        },
+        "features": [
+          "1 núcleo de CPU",
+          "1GB RAM",
+          "10GB almacenamiento SSD",
+          "500GB ancho de banda",
+          "2 despliegues",
+          "Soporte comunitario"
+        ],
+        "cta": "Comenzar"
+      },
+      "pro": {
+        "name": "Profesional",
+        "description": "Ideal para empresas y aplicaciones en crecimiento.",
+        "price": {
+          "monthly": "29€",
+          "annual": "278€"
+        },
+        "features": [
+          "2 núcleos de CPU",
+          "4GB RAM",
+          "50GB almacenamiento SSD",
+          "2TB ancho de banda",
+          "Despliegues ilimitados",
+          "Soporte prioritario",
+          "Dominios personalizados",
+          "Análisis avanzados"
+        ],
+        "cta": "Comenzar",
+        "popular": "Más popular"
+      },
+      "enterprise": {
+        "name": "Empresarial",
+        "description": "Para aplicaciones a gran escala y sitios de alto tráfico.",
+        "price": {
+          "monthly": "99€",
+          "annual": "950€"
+        },
+        "features": [
+          "4 núcleos de CPU",
+          "16GB RAM",
+          "250GB almacenamiento SSD",
+          "5TB ancho de banda",
+          "Despliegues ilimitados",
+          "Soporte dedicado 24/7",
+          "Dominios personalizados",
+          "Análisis avanzados",
+          "99.99% SLA de tiempo de actividad",
+          "Infraestructura dedicada"
+        ],
+        "cta": "Comenzar",
+        "contactSales": "Contactar ventas"
+      }
+    }
+  },
+  "features": {
+    "title": "¿Por qué elegir HostPro?",
+    "subtitle": "Nuestra plataforma está construida pensando en los desarrolladores, proporcionando las herramientas y características que necesitas para tener éxito.",
+    "features": {
+      "performance": {
+        "title": "Velocidad Relámpago",
+        "description": "Infraestructura optimizada que garantiza que tus aplicaciones carguen rápidamente y respondan instantáneamente a las interacciones del usuario."
+      },
+      "security": {
+        "title": "Seguridad Empresarial",
+        "description": "Características de seguridad avanzadas que protegen tus aplicaciones y datos de amenazas y vulnerabilidades."
+      },
+      "scalability": {
+        "title": "Escalado Infinito",
+        "description": "Escala automáticamente tus recursos hacia arriba o hacia abajo según la demanda, garantizando un rendimiento óptimo en todo momento."
+      },
+      "global": {
+        "title": "CDN Global",
+        "description": "Despliega tus aplicaciones en centros de datos de todo el mundo, acercando tu contenido a tus usuarios."
+      }
+    }
+  },
+  "footer": {
+    "company": {
+      "about": "Acerca de",
+      "careers": "Empleo",
+      "blog": "Blog",
+      "legal": "Legal"
+    },
+    "product": {
+      "features": "Características",
+      "pricing": "Precios",
+      "docs": "Documentación",
+      "resources": "Recursos"
+    },
+    "support": {
+      "help": "Centro de Ayuda",
+      "status": "Estado",
+      "contact": "Contáctanos",
+      "community": "Comunidad"
+    },
+    "copyright": "© {year} HostPro, Inc. Todos los derechos reservados."
+  }
+}
+

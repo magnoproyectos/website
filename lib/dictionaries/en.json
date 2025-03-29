@@ -1,0 +1,132 @@
+{
+  "header": {
+    "nav": {
+      "features": "Features",
+      "pricing": "Pricing",
+      "docs": "Documentation",
+      "blog": "Blog"
+    },
+    "cta": {
+      "login": "Log in",
+      "signup": "Sign up"
+    }
+  },
+  "hero": {
+    "title": "Cloud Hosting for Developers",
+    "subtitle": "Deploy your applications with confidence. Our platform provides the speed, security, and scalability your projects deserve.",
+    "cta": "Get started",
+    "secondaryCta": "View demo"
+  },
+  "pricing": {
+    "title": "Simple, transparent pricing",
+    "subtitle": "Choose the plan that's right for you and your projects.",
+    "monthlyLabel": "Monthly",
+    "annualLabel": "Annual",
+    "annualDiscount": "Save 20%",
+    "plans": {
+      "starter": {
+        "name": "Starter",
+        "description": "Perfect for small projects and personal websites.",
+        "price": {
+          "monthly": "$9",
+          "annual": "$86"
+        },
+        "features": [
+          "1 CPU core",
+          "1GB RAM",
+          "10GB SSD storage",
+          "500GB bandwidth",
+          "2 deployments",
+          "Community support"
+        ],
+        "cta": "Get started"
+      },
+      "pro": {
+        "name": "Professional",
+        "description": "Ideal for growing businesses and applications.",
+        "price": {
+          "monthly": "$29",
+          "annual": "$278"
+        },
+        "features": [
+          "2 CPU cores",
+          "4GB RAM",
+          "50GB SSD storage",
+          "2TB bandwidth",
+          "Unlimited deployments",
+          "Priority support",
+          "Custom domains",
+          "Advanced analytics"
+        ],
+        "cta": "Get started",
+        "popular": "Most popular"
+      },
+      "enterprise": {
+        "name": "Enterprise",
+        "description": "For large-scale applications and high-traffic sites.",
+        "price": {
+          "monthly": "$99",
+          "annual": "$950"
+        },
+        "features": [
+          "4 CPU cores",
+          "16GB RAM",
+          "250GB SSD storage",
+          "5TB bandwidth",
+          "Unlimited deployments",
+          "24/7 dedicated support",
+          "Custom domains",
+          "Advanced analytics",
+          "99.99% uptime SLA",
+          "Dedicated infrastructure"
+        ],
+        "cta": "Get started",
+        "contactSales": "Contact sales"
+      }
+    }
+  },
+  "features": {
+    "title": "Why choose HostPro?",
+    "subtitle": "Our platform is built with developers in mind, providing the tools and features you need to succeed.",
+    "features": {
+      "performance": {
+        "title": "Lightning Fast",
+        "description": "Optimized infrastructure ensures your applications load quickly and respond instantly to user interactions."
+      },
+      "security": {
+        "title": "Enterprise Security",
+        "description": "Advanced security features protect your applications and data from threats and vulnerabilities."
+      },
+      "scalability": {
+        "title": "Infinite Scaling",
+        "description": "Automatically scale your resources up or down based on demand, ensuring optimal performance at all times."
+      },
+      "global": {
+        "title": "Global CDN",
+        "description": "Deploy your applications to data centers around the world, bringing your content closer to your users."
+      }
+    }
+  },
+  "footer": {
+    "company": {
+      "about": "About",
+      "careers": "Careers",
+      "blog": "Blog",
+      "legal": "Legal"
+    },
+    "product": {
+      "features": "Features",
+      "pricing": "Pricing",
+      "docs": "Documentation",
+      "resources": "Resources"
+    },
+    "support": {
+      "help": "Help Center",
+      "status": "Status",
+      "contact": "Contact Us",
+      "community": "Community"
+    },
+    "copyright": "© {year} HostPro, Inc. All rights reserved."
+  }
+}
+
