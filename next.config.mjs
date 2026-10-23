@@ -22,6 +22,7 @@ const nextConfig = {
     parallelServerCompiles: true,
   },
   output: 'export',
+  trailingSlash: true,
   basePath: '',       // Asegura que no agregue el nombre del repo en la URL
   assetPrefix: '',
 }
