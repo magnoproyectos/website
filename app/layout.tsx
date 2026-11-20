@@ -7,7 +7,7 @@ import "./globals.css"
 // Tipografía del manual de marca: Lexend 600 para títulos y 400 para textos.
 const lexend = Lexend({ subsets: ["latin"], weight: ["400", "600"], display: "swap", variable: "--font-lexend" })
 
-// Google Analytics 4
+// Etiqueta de Google (contenedor de Tag Manager con Analytics)
 const GA_ID = "G-PW2W6C1D2Z"
 
 export const metadata: Metadata = {
@@ -27,12 +27,11 @@ export default function RootLayout({ children }: { children: ReactNode }) {
     <html lang="es" className={lexend.variable}>
       <body>
         {children}
-        <Script src={`https://www.googletagmanager.com/gtag/js?id=${GA_ID}`} strategy="afterInteractive" />
-        <Script id="google-analytics" strategy="afterInteractive">
+        <Script src={`https://www.googletagmanager.com/gtm.js?id=${GA_ID}`} strategy="afterInteractive" />
+        <Script id="google-tag" strategy="afterInteractive">
           {`window.dataLayer = window.dataLayer || [];
 function gtag(){dataLayer.push(arguments);}
-gtag('js', new Date());
-gtag('config', '${GA_ID}');`}
+gtag('js', new Date());`}
         </Script>
       </body>
     </html>
