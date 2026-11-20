@@ -11,8 +11,8 @@ export const dynamicParams = false
 export async function generateMetadata({ params }: { params: Promise<{ lang: string }> }) {
   const { lang } = await params
   return lang === "en" ? {
-    title: "MagnoProyectos — Applied artificial intelligence",
-    description: "We apply artificial intelligence to solve everyday business problems. Less friction. More possibilities.",
+    title: "Magno Proyectos — Applied artificial intelligence",
+    description: "Magno Proyectos automates tasks, designs and implements custom technology solutions, and trains teams to use artificial intelligence safely and efficiently.",
   } : {}
 }
 
