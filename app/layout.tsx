@@ -2,6 +2,7 @@ import type { Metadata } from "next"
 import type { ReactNode } from "react"
 import { Lexend } from "next/font/google"
 import Script from "next/script"
+import CookieBanner from "@/components/cookie-banner"
 import "./globals.css"
 
 // Tipografía del manual de marca: Lexend 600 para títulos y 400 para textos.
@@ -30,6 +31,15 @@ export default function RootLayout({ children }: { children: ReactNode }) {
           <iframe src={`https://www.googletagmanager.com/ns.html?id=${GTM_ID}`} height="0" width="0" style={{ display: "none", visibility: "hidden" }} />
         </noscript>
         {children}
+        <CookieBanner />
+        {/* Modo de consentimiento: todo denegado hasta que el visitante acepte; recupera una elección guardada. */}
+        <Script id="consent-default" strategy="beforeInteractive">
+          {`window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+window.gtag = gtag;
+gtag('consent', 'default', { ad_storage: 'denied', ad_user_data: 'denied', ad_personalization: 'denied', analytics_storage: 'denied', wait_for_update: 500 });
+try { var c = localStorage.getItem('mp-consent'); if (c === 'granted') { gtag('consent', 'update', { ad_storage: 'granted', ad_user_data: 'granted', ad_personalization: 'granted', analytics_storage: 'granted' }); } } catch (e) {}`}
+        </Script>
         <Script id="google-tag-manager" strategy="afterInteractive">
           {`(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],

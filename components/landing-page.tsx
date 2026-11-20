@@ -1,4 +1,5 @@
 import type { Locale } from "@/i18n-config"
+import CookieSettingsLink from "@/components/cookie-settings-link"
 
 // Datos de contacto
 const EMAIL = "hello@magnoproyectos.com"
@@ -72,6 +73,7 @@ const content = {
     whatsappButton: "Escríbenos por WhatsApp",
     whatsappText: "Hola, quiero contarles qué necesita mi empresa.",
     status: "Una nueva etapa, en marcha",
+    cookies: "Preferencias de cookies",
     language: "Read in English",
   },
   en: {
@@ -137,6 +139,7 @@ const content = {
     whatsappButton: "Message us on WhatsApp",
     whatsappText: "Hello, I would like to tell you what my business needs.",
     status: "A new chapter, underway",
+    cookies: "Cookie preferences",
     language: "Leer en español",
   },
 }
@@ -231,7 +234,7 @@ export default function LandingPage({ lang = "es" }: { lang?: Locale }) {
       </main>
       <footer className="container site-footer">
         <span className="status"><span aria-hidden="true" />{copy.status}</span>
-        <span>© {new Date().getFullYear()} Magno Proyectos · <a href={`mailto:${EMAIL}`}>{EMAIL}</a></span>
+        <span>© {new Date().getFullYear()} Magno Proyectos · <a href={`mailto:${EMAIL}`}>{EMAIL}</a> · <CookieSettingsLink label={copy.cookies} /></span>
       </footer>
     </div>
   )
