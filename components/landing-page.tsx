@@ -59,7 +59,7 @@ const content = {
     ] as Service[],
     disclaimer: "Los ejemplos muestran soluciones que podemos implementar; no son casos de clientes ni resultados garantizados. El alcance se define en cada proyecto.",
     aboutTitle: "Quiénes somos",
-    aboutText: "Magno Proyectos es una consultora boutique de inteligencia artificial y automatización. La dirige Sebastián, con más de 20 años liderando equipos y proyectos de tecnología en empresas de finanzas, inmobiliario, educación y recursos humanos. Combinamos comprensión del negocio, implementación técnica y acompañamiento a los equipos.",
+    aboutText: "Magno Proyectos es una consultora boutique de inteligencia artificial y automatización. Detrás hay más de 20 años de experiencia liderando equipos y proyectos de tecnología en empresas de finanzas, inmobiliario, educación y recursos humanos. Combinamos comprensión del negocio, implementación técnica y acompañamiento a los equipos.",
     processTitle: "Cómo trabajamos",
     steps: [
       { title: "Entendemos el problema", text: "Revisamos el proceso, las herramientas y los datos disponibles antes de proponer una solución." },
@@ -124,7 +124,7 @@ const content = {
     ] as Service[],
     disclaimer: "These examples show solutions we can implement; they are not client case studies or guaranteed results. Scope is defined for each project.",
     aboutTitle: "Who we are",
-    aboutText: "Magno Proyectos is a boutique AI and automation consultancy. It is led by Sebastián, who has more than 20 years of experience leading technology teams and projects in finance, real estate, education and HR. We combine business understanding, technical implementation and hands-on support for teams.",
+    aboutText: "Magno Proyectos is a boutique AI and automation consultancy. Behind it are more than 20 years of experience leading technology teams and projects in finance, real estate, education and HR. We combine business understanding, technical implementation and hands-on support for teams.",
     processTitle: "How we work",
     steps: [
       { title: "We understand the problem", text: "We review the process, tools and available data before proposing a solution." },
